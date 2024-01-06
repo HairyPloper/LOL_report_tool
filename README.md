@@ -5,7 +5,7 @@ This tool automatically reports players after a game at statistic window in __Le
 It is written in __Python 3.7__, and __pyautogui__ does most of the work.  
 
 ## Download
-Go to [Release](https://github.com/SivWatt/LOL_report_tool/releases/latest) page and download __LeagueReport.zip__.
+Go to [Release](https://github.com/SivWatt/LOL_report_tool/releases/latest) page and download __Pijekinator.zip__.
 
 ## Usage
 Run `League.exe` as __administrator__ and the GUI will show.  
