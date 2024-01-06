@@ -32,7 +32,7 @@ class Application(tk.Frame):
 		window = tk.Tk()
 		super().__init__(window)
 		self.master = window
-		window.title('水水牌檢舉器')
+		window.title('Pijekinator')
 		window.iconbitmap(os.path.join(self.cwd, 'image', 'rsc', 'window_icon.ico'))
 		window.configure(background='white')
 		window.geometry("+1600+700")
