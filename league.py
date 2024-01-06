@@ -3,6 +3,8 @@ import pyperclip
 
 import window
 
+import random
+import re
 import os
 from random import seed
 from random import randint
@@ -18,7 +20,8 @@ class Reporter:
 		self.logger = logger
 		self.images = images
 		with open(os.path.join(cwd, 'reportText.txt'), encoding='utf8') as file:
-			self.reportText = file.read()
+			allText = file.read()
+			self.reportText = re.split(r'\n|;', allText)
 
 		self.cancel_1280_720 = pyautogui.Point(865, 75)
 		self.team_1280_720 = [	
@@ -94,7 +97,8 @@ class Reporter:
 			commentTextField = pyautogui.locateCenterOnScreen(self.images.commentText, region=leagueRegion)
 			if commentTextField:
 				pyautogui.click(commentTextField)
-				pyperclip.copy(self.reportText)
+				reportText = returnRandomComment(self.repotText)
+				pyperclip.copy(reportText)
 				pyautogui.hotkey('ctrl','v')
 
 			# cancel report for testing
@@ -132,3 +136,6 @@ def myRandom():
 			rn = randint(0,6)
 		randomNumbers.append(rn)
 	return randomNumbers
+
+def returnRandomComment(report_comments):
+	return random.choice(report_comments)
