@@ -9,7 +9,7 @@ Go to [Release](https://github.com/SivWatt/LOL_report_tool/releases/latest) page
 
 ## Usage
 Run `League.exe` as __administrator__ and the GUI will show.  
-![GUI](/doc/info.PNG?raw=true)
+![GUI](/doc/info.png?raw=true)
   - Press `TEAM` to report __ALL__ of the players in your team  
   - Press `ENEMY` to report __ALL__ of the players in opponent team  
   - Press `ALL` to report literally all players except yourself  
