@@ -45,17 +45,17 @@ class Application(tk.Frame):
 		# top frame
 		teamStyle = ttk.Style()
 		teamStyle.configure('Team.TButton', foreground='green', background='green')
-		teamButton = ttk.Button(topFrame, text='TEAM', style='Team.TButton', command=self.team)
+		teamButton = ttk.Button(topFrame, text='TEAM NEMA RUKY', style='Team.TButton', command=self.team)
 		teamButton.pack(side=tk.LEFT)
 
 		enemyStyle = ttk.Style()
 		enemyStyle.configure('Enemy.TButton', foreground='red', background='red')
-		enemyButton = ttk.Button(topFrame, text='ENEMY', style='Enemy.TButton', command=self.enemy)
+		enemyButton = ttk.Button(topFrame, text='ENEMY NEMA RUKY', style='Enemy.TButton', command=self.enemy)
 		enemyButton.pack(side=tk.LEFT)
 
 		allStyle = ttk.Style()
 		allStyle.configure('All.TButton', foreground='blue', background='blue')
-		allButton = ttk.Button(topFrame, text='ALL', style='All.TButton', command=self.all)
+		allButton = ttk.Button(topFrame, text='ALL NEMA RUKY', style='All.TButton', command=self.all)
 		allButton.pack(side=tk.LEFT)
 
 		# bottom frame

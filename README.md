@@ -5,11 +5,11 @@ This tool automatically reports players after a game at statistic window in __Le
 It is written in __Python 3.7__, and __pyautogui__ does most of the work.  
 
 ## Download
-Go to [Release](https://github.com/SivWatt/LOL_report_tool/releases/latest) page and download __Pijekinator.zip__.
+Go to [Release](https://github.com/SivWatt/LOL_report_tool/releases/latest) page and download __LeagueReport.zip__.
 
 ## Usage
 Run `League.exe` as __administrator__ and the GUI will show.  
-![GUI](/doc/main-window.PNG?raw=true)
+![GUI](/doc/info.PNG?raw=true)
   - Press `TEAM` to report __ALL__ of the players in your team  
   - Press `ENEMY` to report __ALL__ of the players in opponent team  
   - Press `ALL` to report literally all players except yourself  
@@ -31,3 +31,4 @@ You can take a look at `debuglog.log` to see which image the tool mismatches.
 And for image issues, it can simply be fixed by replacing image with screenshoted one by user himself/herself.
 
 ## Development
+If you encounter any problem, feel free to let me know via creating [issues](https://github.com/SivWatt/LOL_report_tool/issues).
