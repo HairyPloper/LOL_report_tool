@@ -31,4 +31,3 @@ You can take a look at `debuglog.log` to see which image the tool mismatches.
 And for image issues, it can simply be fixed by replacing image with screenshoted one by user himself/herself.
 
 ## Development
-If you encounter any problem, feel free to let me know via creating [issues](https://github.com/SivWatt/LOL_report_tool/issues).
