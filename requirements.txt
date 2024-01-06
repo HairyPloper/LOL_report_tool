@@ -1,6 +1,6 @@
 altgraph==0.17
 argcomplete==1.12.3
-click==8.1.7
+click==7.1.2
 colorama==0.4.4
 future==0.18.2
 importlib-metadata==4.0.1
@@ -9,9 +9,9 @@ numpy==1.20.3
 opencv-python==4.5.2.52
 packaging==20.9
 pefile==2021.5.13
-Pillow==10.2.0
+Pillow==9.0.1
 pipx==0.16.2.1
-PyAutoGUI==0.9.54
+PyAutoGUI==0.9.52
 PyGetWindow==0.0.9
 pyinstaller==5.0.1
 pyinstaller-hooks-contrib==2021.1
