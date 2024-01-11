@@ -97,7 +97,7 @@ class Reporter:
 			commentTextField = pyautogui.locateCenterOnScreen(self.images.commentText, region=leagueRegion)
 			if commentTextField:
 				pyautogui.click(commentTextField)
-				reportText = returnRandomComment(self.repotText)
+				reportText = returnRandomComment(self.reportText)
 				pyperclip.copy(reportText)
 				pyautogui.hotkey('ctrl','v')
 
